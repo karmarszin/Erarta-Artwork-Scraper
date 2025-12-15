@@ -36,13 +36,14 @@
 1. Установите зависимости:
    ```bash
    pip install selenium pandas
- Установите соответствующую версию ChromeDriver.
+2. Установите соответствующую версию ChromeDriver.
 
-2. Запустите этапы:
+3. Запустите этапы:
 
 ```bash
 python link_scraper.py
 python link_visitor.py
+```
 
 Важное юридическое уведомление
 
