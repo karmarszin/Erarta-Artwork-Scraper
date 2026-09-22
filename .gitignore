@@ -1,0 +1,47 @@
+# --- Виртуальное окружение ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Байткод и кэш Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# --- Базы данных и временные файлы SQLite ---
+# База должна генерироваться кодом при первом запуске (init_db)
+*.db
+*.sqlite
+*.sqlite3
+# Служебные файлы режима WAL (Write-Ahead Logging)
+*.db-wal
+*.db-shm
+
+# --- Логи и дампы скрейпинга ---
+*.log
+geckodriver.log
+debug.log
+
+# --- Сырые промежуточные дампы данных ---
+# Соответствие юридическому требованию: не хранить выгруженные данные в репозитории
+*.csv
+*.parquet
+*.json
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Настройки IDE и редакторов ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Системные файлы ---
+.DS_Store
+Thumbs.db
+desktop.ini
